@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 2</title>
+    <style media="screen" type="text/css">
+        html,
+        body {
+          margin: 0;
+          padding: 0;
+        }
+  
+        .square {
+          height: 200px;
+          width: 200px;
+        }
+  
+        .square__red {
+          background-color: rgba(255, 0, 0, 0.5);
+          z-index: 3;
+          position: absolute;
+        }
+  
+        .square__green {
+          background-color: rgba(0, 255, 0, 0.5);
+          left: 25px;
+          position: absolute;
+          top: 25px;
+          z-index: 2;
+        }
+  
+        .square__blue {
+          background-color: rgba(0, 0, 255, 0.5);
+          left: 50px;
+          position: absolute;
+          top: 50px;
+          z-index: 1;
+        }
+      </style>
+    </head>
+</head>
+<body>
+    
+
+        <figure class="square square__red"></figure>
+        <figure class="square square__green"></figure>
+        <figure class="square square__blue"></figure>
+
+
+</body>
+</html>
